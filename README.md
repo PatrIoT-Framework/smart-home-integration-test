@@ -19,11 +19,20 @@ Please follow the `Build Docker` at repositories:
 * [Virtual Home](https://github.com/PatrIoT-Framework/virtual-smart-home#building-docker-image) with `IMAGE_TAG=patriotframework/virtual-home`
 * [Smart Gateway](https://github.com/PatrIoT-Framework/smart-home-gateway#build-docker-image) with `IMAGE_TAG=patriotframework/smart-gateway`
 
+Pull the router image by executing comand:
+
+```bash
+$ docker pull patriotframework/patriot-router:latest
+```
+
 Then you can start up the monitoring environment:
+
 ```bash
 $ docker-compose up -d
 ```
+
 The command will start the monitoring environment with output similar to this:
+
 ```
 Creating network "smarthousetests_default" with the default driver
 Creating smarthousetests_mongodb_1       ... done
